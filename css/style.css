@@ -4,6 +4,12 @@
     animation-duration: 2s;
     animation-delay: 0s;
 }
+
+body{
+    direction: rtl;
+    text-align: center;
+}
+
 .preloader{
     position: fixed;
     z-index: 999;
@@ -14,4 +20,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+li{list-style: none;}
+a{text-decoration: none;}
+.row{padding: 0;}
+
+nav{
+width: 100%;
+padding: 40px;
+}
+
+#LogoSite{
+width: 200px;
 }
