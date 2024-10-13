@@ -1,1 +1,4 @@
-.preloader{background-color: white;}
+body{background-color: rgb(253,253,253);}
+.preloader{background-color: rgb(253,253,253);}
+nav li a{color: black;}
+nav li a:hover{color: #FFA600;}
