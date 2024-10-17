@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./css/responsive.css">
         <link rel="stylesheet" href="./css/color.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
     <div class="preloader">
         <div id="status-preloader">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="125" height="125" style="shape-rendering: auto; display: block; background: rgb(255, 255, 255);" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle fill="#ffa600" r="10" cy="50" cx="84">
@@ -39,7 +39,7 @@
     </div>
 
     <header>
-        <nav class="container-fluid">
+        <nav class="container-fluid" id="navbar">
             <ul class="row">
                 <li class="col-md-1"></li>
                 <li class="col-md-1"><a href="#home">خانه</a></li>
@@ -54,16 +54,14 @@
         </nav>
     </header>
     
-    <section class="main-body container">
-      <div class="main-content row">
-
-        <div class="col-md-6 main-image">
-          <img src="" alt="">
-        </div>
-
-        <div class="col-md-6 main-context">
-        </div>
-
+    <section class="main-body" id="home">
+      <div class="main-back">
+        <canvas id="bg-home"></canvas>
+      </div>
+      <div class="main-context">
+        <h2>امیرحسن مومنی</h2>
+        <h2>توسعه‌دهنده فول‌استک وب</h2>
+        <p>طراحی وب‌سایت‌های تمیز، واکنش‌گرا و کاربرپسند با هدف تحقق ایده‌های نوآورانه.</p>
       </div>
     </section>
 
